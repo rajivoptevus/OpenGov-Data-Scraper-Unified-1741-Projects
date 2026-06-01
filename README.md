@@ -35,3 +35,63 @@ python Unified_OpenGov_Data_Scraper.py --fix-followers
 
 # Process specific project only
 python Unified_OpenGov_Data_Scraper.py --project-id 123456
+
+#TREE
+
+```text
+OpenGov-Data-Scraper-Unified-1741-Projects
+│
+├── .gitignore
+├── README.md
+├── Unified_OpenGov_Data_Scraper.py
+├── download_opengov_files.py
+├── auto_followers.py
+├── count_of_docs.py
+├── script.py
+│
+├── downloads-Opengov
+│   ├── all_projects.json
+│   ├── download_state.json
+│   ├── manifest.json
+│   │
+│   ├── 100427
+│   │   └── file.pdf
+│   │   └── project.json
+│   │
+│   ├── 101968
+│   │   └── file.pdf
+│   │   └── project.json
+│   │
+│   ├── 270404
+│   │   └── file.pdf
+│   │   └── project.json
+│   │
+│   ├── 270414
+│   │   └── file.pdf
+│   │   └── project.json
+│   │
+│   ├── 270416
+│   │   ├── 270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_01_-_Project_Solicitation_& 
+            _Instructions_for_Bidders.pdf
+│   │   ├── 270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_02_-_Bidding_Documents.pdf
+│   │   ├── 270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_03_-_Contract_Forms.pdf
+│   │   ├──  
+         270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_04_-_General_and_Supplementary_Conditions.pdf
+│   │   ├── 270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_05_-_General_Requirements.
+            pdf
+│   │   ├── 
+            270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_06_-_Technical_Specifications.pdf
+│   │   ├── 270416__Bid_26-6988_RYY_South_Apron_Drainage_Repairs_Division_07_-_Construction_Plans.pdf
+│   │   └── project.json
+│   │
+│   └── ... (1,700+ project directories)
+│
+├── logs
+│   ├── scraper_20260530_183648.log
+│   └── scraper_20260531_112742.log
+│
+└── reports
+    ├── project_directory_report_20260531_015642.txt
+    ├── project_directory_report_20260531_023848.txt
+    └── ...
+```
